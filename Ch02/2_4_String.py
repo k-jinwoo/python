@@ -13,3 +13,7 @@ print('str3 :', str3)
 # 문자열 곱하기
 name = '홍길동'
 print('name * 3 :', name *3)
+
+# 문자열 길이
+msg = 'Hello World'
+print('msg 길이 :', len(msg))
