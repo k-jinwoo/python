@@ -61,9 +61,9 @@ a = input('입력 : ')
 print('a :', a)
 
 var1 , var2, var3 = input('3개 숫자 입력(띄어쓰기 구분) : ').split() # str로 값을 받음
-print('var1 : {}, var2 : {}, var3 : {}'.format(var1,var2,var3))
-print('var1 + var2 + var3 = ', var1+var2+var3)
+print('var1 : {}, var2 : {}, var3 : {}'.format(var1,var2,var3)) # 1 2 3
+print('var1 + var2 + var3 = ', var1+var2+var3)                  # 123
 
 num1 , num2, num3 = map(int,input('3개 숫자 입력(띄어쓰기 구분) : ').split()) # int로 값을 받음
-print('num1 : {}, num2 : {}, num3 : {}'.format(num1,num2,num3))
-print('num1 + num2 + num3 = ', num1+num2+num3)
+print('num1 : {}, num2 : {}, num3 : {}'.format(num1,num2,num3)) # 2 4 6
+print('num1 + num2 + num3 = ', num1+num2+num3)                  # 12
