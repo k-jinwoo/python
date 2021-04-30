@@ -10,9 +10,9 @@ while start <= end :
     mid = (start + end) // 2
 
     if dataset[mid] > value :
-        end = end - 1
+        end = mid - 1 # end - 1
     elif dataset[mid] < value :
-        start = start + 1
+        start = mid + 1 # start + 1
     else :
         loc = mid
         state = True
