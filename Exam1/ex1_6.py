@@ -7,9 +7,9 @@ for i in range(1, 10) :
         count -= 1
 
     for j in range(5-count) :
-        print('  ', end='')
+        print(' ', end='')
 
     for k in range(count*2-1) :
-        print('*', end=' ')
+        print('*', end='')
 
     print()
